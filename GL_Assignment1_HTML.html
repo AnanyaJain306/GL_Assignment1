@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GL_Assignment 1</title>
+</head>
+
+<body>
+    <h1>GL_Assignment 1 of Glue Labs</h1>
+    <br>
+    <hr>
+    <form>
+        <div>
+            <input type="button" onclick="alert('Fill the form!')" value="Click Me!">
+        </div>
+        <br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+        <div>
+            <h4>Choose your Favorite Color</h4>
+            <label for="color"></label>
+            <select name="color" id="color">
+                <option value="red">Red Color</option>
+                <option value="green">Green Color</option>
+                <option value="blue">Blue Color</option>
+            </select>
+        </div>
+        
+        <div>
+            <h4>What do you own?</h4>
+            <input type="checkbox" name="bike" value="bike" id="bike">
+            <label for="bike">Bike</label>
+            <input type="checkbox" name="car" value="car" id="car">
+            <label for="car">Car</label>
+        </div>
+
+        <div>
+            <h4>What's your Birth Date?</h4>
+            <label for="birthday">Choose Date</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <div>
+            <h4>What is the local Time in your zone?</h4>
+            <label for="Birthdaytime">Choose Date and Time</label>
+            <input type="datetime-local" name="Birthdaytime" id="Birthdaytime">
+        </div>
+        <br>
+        <div>
+            <label for="message">Write about your experience in coding.</label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="myfile">Select a file (Resume):</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+        <br>
+        <div>
+            <label for="quantity">Coding Experience (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">  
+        </div>
+        <br>
+        <div>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        <br>
+        <div>
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+        </div>
+        <br>
+        <div>
+            <img src="https://cdn.pizap.com/pizapfiles/images/thank_you_card_maker_app01.jpg" alt="computer" width="300" height="200">
+        </div>
+
+        <div>
+            <!-- Refreshes the page -->
+            <input type="submit" value="Submit Form">
+        </div>
+    </form>
+
+</body>
