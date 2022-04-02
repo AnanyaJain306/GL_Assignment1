@@ -1,0 +1,14 @@
+.card-block{
+    background-color: rgba(19, 64, 211, 0.904);
+}
+.btn{
+    background-color: #12d6cc;
+    border: 5rem;
+    border-color: black;
+    margin-bottom: 10px;
+    color: black;
+}
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
